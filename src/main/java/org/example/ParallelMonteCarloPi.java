@@ -70,4 +70,8 @@ public class ParallelMonteCarloPi {
         System.out.printf("час: %.2f мс\n", timeElapsedMillis);
         System.out.println("!===! Розділювальна смуга =) !===!");
     }
+
+    // запустити це все добро можна за допомогою
+    // cd .\src\main\java
+    // java org.example.ParallelMonteCarloPi (кількість потоків)
 }
